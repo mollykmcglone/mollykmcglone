@@ -1,6 +1,7 @@
 img {
-  float: right;
-  margin-left: 20px;
+  float: left;
+  max-width: 25%;
+  margin-right: 20px;
 }
 
 @media (max-width: 992px){
@@ -9,7 +10,18 @@ img {
   }
 }
 
-.col-md-4 {
-   background-color: #adc2eb;
-   color: white;
+.row {
+  margin-bottom: 25px;
+}
+
+.Projects h2 {
+  Color: green;
+}
+
+.About h2 {
+  Color: blue;
+}
+
+.footer {
+  text-align: center;
 }
