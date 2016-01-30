@@ -1,38 +1,66 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
-    <title>Molly's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Adventures</title>
   </head>
 
   <body>
     <div class="container">
+      <header class="page-header">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Portfolio</a></li>
+          <li><a href="http://www.epicodus.com/">Epicodus</a></li>
+        </ul>
+        <h3> Molly McGlone</h3>
+      </header>
+
       <div class="jumbotron">
-        <img src="img/yosemite_bicycling.jpg" alt="An image of a woman riding a bicycle with a mountain in the background">
         <h1>Digital Adventures</h1>
-        <h2>by Molly McGlone</h2>
-        <p>Welome to my portfolio.  Here are some of the projects I've been working on so far during the Introduction to Programming course at <a href="http://www.epicodus.com/">Epicodus</a>.</p>
-        <p>Please take a look and <a href="mailto:mollykmcglone@gmail.com">let me know what you think!</a></p>
+        <p class= "lead">Welcome to my web programming portfolio. I'm new here but learning fast and enjoying the journey. Here are some of the projects I'm working on- take a look and let me know what you think!</p>
+        <p><a class="btn btn-success btn-lg" href="mailto:mollykmcglone@gmail.com">Send me Feedback</a></p>
       </div>
 
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h1>My Projects</h1>
-            <ul>
-              <li>this one</li>
-              <li>this one</li>
-              <li>this one</li>
-              <li>this one</li>
-          </div>
-          <div class="col-md-8">
-            <h1>About Me</h1>
-            <p>I'm another column! Perhaps I'm the main body text.</p>
-          </div>
+      <div class="row Projects">
+        <div class="col-sm-4">
+          <h2>My Favorite Things</h2>
+          <p>This was the first website I created! It uses the very basics of html and css such as paragraphs, links, images, colors and sizing.</p>
+          <p><a class="btn btn-default btn-lg" href="http://mollykmcglone.github.io/ICblog/">My Favorite Things</a></p>
+        </div>
+        <div class="col-sm-4">
+          <h2>The Inspector's Notepad</h2>
+          <p>With a little more experience under my belt, I created this blog for my dog. This is my first practice with floats and the box model.</p>
+          <p><a class="btn btn-default btn-lg" href="http://mollykmcglone.github.io/ICblog/">The Inspector's Notepad</a></p>
+        </div>
+        <div class="col-sm-4">
+          <h2>Best Camping Spot</h2>
+          <p>Once we started learning Bootstrap I created this site to practice Bootstrap elements like jumbotron and the grid system.</p>
+          <p><a class="btn btn-default btn-lg" href="http://mollykmcglone.github.io/ICblog/">Best Camping Spot</a></p>
         </div>
       </div>
 
+      <div class="row About">
+        <div class="col-sm-8">
+          <h2>About Me</h2>
+          <img src="img/yosemite_bicycling.jpg" alt="A woman riding a bicycle with a mountain in the background">
+          <p>I'm passionate about social and economic justice and have spent my career working for a variety of local and national organizations focused on making the world a better place.  Currently I am the Economic Empowerment Coordinator at REACH, a nonprofit affordable housing provider in Portland, Oregon.<br> </p>
+        </div>
+        <div class="col-sm-4">
+          <h2>My Plan of Study</h2>
+          <ol>
+            <li>Complete the Intro to Programming class.</li>
+            <li>Enroll in full-time classes.</li>
+            <li>Complete three classes and an internship.</li>
+            <li>Graduate and get a full-time job!</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>&copy; 2016 Molly McGlone</p>
+      </div>
     </div>
   </body>
 </html>
