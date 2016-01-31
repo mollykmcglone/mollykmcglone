@@ -1,0 +1,38 @@
+img {
+  float: left;
+  max-width: 35%;
+  margin-right: 20px;
+}
+
+@media (max-width: 992px){
+  img {
+    display: none;
+  }
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.Projects1 h2 {
+  Color: #4cae4c;
+}
+
+.Projects2 h2 {
+  Color: #4cae4c;
+}
+
+.About h2 {
+  Color: #337ab7;
+}
+
+.footer {
+  text-align: center;
+}
+
+.jumbotron {
+    background: url('../img/sunset.jpg') center center;
+    background-size: cover;
+    color: #FFF;
+    background-color: inherit;
+}
