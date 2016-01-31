@@ -10,7 +10,7 @@ This is a simple portfolio designed to display my web programming projects.
 
 ## Setup/Installation Requirements
 
-* clone this repository
+* Site available at: http://mollykmcglone.github.io/Portfolio/
 
 ## Support and contact details
 
