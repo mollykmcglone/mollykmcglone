@@ -1,6 +1,6 @@
 img {
   float: left;
-  max-width: 25%;
+  max-width: 35%;
   margin-right: 20px;
 }
 
@@ -11,15 +11,19 @@ img {
 }
 
 .row {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
-.Projects h2 {
-  Color: green;
+.Projects1 h2 {
+  Color: #4cae4c;
+}
+
+.Projects2 h2 {
+  Color: #4cae4c;
 }
 
 .About h2 {
-  Color: blue;
+  Color: #337ab7;
 }
 
 .footer {
