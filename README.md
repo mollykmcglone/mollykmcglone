@@ -18,7 +18,9 @@ Please contact me with any questions, concerns, or ideas at mollykmcglone@gmail.
 
 ## Technologies Used
 
-This was created using HTML, CSS and the Boostrap framework.
+* HTML
+* CSS
+* Bootstrap
 
 ### License
 
